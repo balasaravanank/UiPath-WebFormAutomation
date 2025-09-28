@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Textarea",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "TFFNOdCix0Ktonmm0PoBXA",
+  "Reference": "WQ5webFp60-xLRlpDywaKA/TFFNOdCix0Ktonmm0PoBXA",
+  "ParentRef": "WQ5webFp60-xLRlpDywaKA/08eHstUy9Ua7J_F8pc0UUQ",
+  "Created": "2025-09-28T14:06:35.7029489Z",
+  "Updated": "2025-09-28T14:06:35.7029489Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

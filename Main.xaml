@@ -1,0 +1,191 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1198,1416" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Chrome Web form" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1392.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="917e56cc-4ccb-43e8-810d-8f23ba3c38cf" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1151.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Text input'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,290" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="917e56cc-4ccb-43e8-810d-8f23ba3c38cf" Text="Bala Saravanan K" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="585c6a20-8de5-4a18-810f-3bd176db3e6a" CvElementArea="311, 533, 1046, 101" CvType="InputBox" DesignTimeRectangle="297, 668, 1040, 94" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='my-text-id' tag='INPUT' type='text' class='form-control' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4aeba28a-a9fa-41cd-acfb-a6ed8d6eb6ec" InformativeScreenshot="f3046de3fef789de50dea45327c913bf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset Position="TopLeft" X="208" Y="19" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,290" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="Simulate" IsPassword="True" ScopeIdentifier="917e56cc-4ccb-43e8-810d-8f23ba3c38cf" Text="password" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="27025e6f-5d10-45ca-af45-f2909255d61e" ContentHash="Toc9dNHlr0S6cKOh8HMSdQ" CvElementArea="291, 837, 1047, 100" CvType="InputBox" DesignTimeRectangle="297, 842, 1040, 94" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='form-control' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="24361a61-6614-4b5a-91b8-906c0d4e9a35" InformativeScreenshot="d0ad621b14029e088e8002dbcea8614c.png" Reference="WQ5webFp60-xLRlpDywaKA/W76PeT3yX0K0r4r97scpGA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="27025e6f-5d10-45ca-af45-f2909255d61e" CvElementArea="291, 837, 1047, 100" CvTextArea="295, 792, 165, 37" CvTextArgument="Password" CvType="InputBox" DesignTimeRectangle="297, 782, 1040, 154" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password                            ' tag='LABEL' type='' class='form-label w-100' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password' /&gt;" Guid="f5361623-002f-479c-8a5a-caffb16df4b2" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Textarea'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,290" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="Simulate" ScopeIdentifier="917e56cc-4ccb-43e8-810d-8f23ba3c38cf" Text="Graphic Designer and UI / UX enthusiast" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="8a85501d-2ed7-4c5d-9e16-9a4375d18e87" ContentHash="0374NE4Y60Od3P4mH0BIvg" CvElementArea="309, 1010, 1048, 222" CvType="InputBox" DesignTimeRectangle="316, 1016, 1040, 214" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='form-control' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="910f5e70-c784-467e-bdf1-4ef93ac32aad" InformativeScreenshot="05b822093c43499ffd149ed88e1f5f52.png" Reference="WQ5webFp60-xLRlpDywaKA/TFFNOdCix0Ktonmm0PoBXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="8a85501d-2ed7-4c5d-9e16-9a4375d18e87" CvElementArea="309, 1010, 1048, 222" CvTextArea="312, 970, 147, 35" CvTextArgument="Textarea" CvType="InputBox" DesignTimeRectangle="316, 956, 1040, 274" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Textarea                            ' tag='LABEL' type='' class='form-label w-100' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Textarea' /&gt;" Guid="80379472-4430-4cd7-bc6b-2134e47a9932" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="917e56cc-4ccb-43e8-810d-8f23ba3c38cf" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="8a85501d-2ed7-4c5d-9e16-9a4375d18e87" ContentHash="viK6yhyjlUafSn9rOJKM3A" CvElementArea="1410, 1421, 197, 100" CvTextArea="1445, 1452, 130, 37" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="1416, 1425, 189, 94" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="de7de9f2-74af-4f0e-9e5b-03c168768b3e" InformativeScreenshot="fa8d57230fcdbe4d63744b84587bfeff.png" Reference="WQ5webFp60-xLRlpDywaKA/KsdJgv2K8kOuEBKS5R2x9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-16, -16, 3872, 2192" BrowserType="Chrome" ContentHash="U05G9Lk1ske7HsXVH91e_Q" IconBase64="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" InformativeScreenshot="e80067a41fe673157cb492713f86ad68.jpg" Reference="WQ5webFp60-xLRlpDywaKA/08eHstUy9Ua7J_F8pc0UUQ" Selector="&lt;html app='chrome.exe' title='Web form' /&gt;" Url="https://www.selenium.dev/selenium/web/web-form.html" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

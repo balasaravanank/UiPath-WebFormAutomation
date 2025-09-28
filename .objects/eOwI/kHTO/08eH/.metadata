@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Chrome Web form",
+  "Type": "Screen",
+  "Id": "08eHstUy9Ua7J_F8pc0UUQ",
+  "Reference": "WQ5webFp60-xLRlpDywaKA/08eHstUy9Ua7J_F8pc0UUQ",
+  "ParentRef": "WQ5webFp60-xLRlpDywaKA/kHTOVtbN3kWTdAInqAgNKw",
+  "Created": "2025-09-28T13:29:57.2746384Z",
+  "Updated": "2025-09-28T13:31:50.9261407Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

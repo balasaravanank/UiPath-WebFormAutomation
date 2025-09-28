@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome UiPath web form automation",
+  "Type": "Screen",
+  "Id": "cMdmCE4bgkGnpb9RBs-0iA",
+  "Reference": "WQ5webFp60-xLRlpDywaKA/cMdmCE4bgkGnpb9RBs-0iA",
+  "ParentRef": "WQ5webFp60-xLRlpDywaKA/-rkreUp2R0SqpXmM2mRUVQ",
+  "Created": "2025-09-28T14:01:08.5853511Z",
+  "Updated": "2025-09-28T14:01:08.5853511Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

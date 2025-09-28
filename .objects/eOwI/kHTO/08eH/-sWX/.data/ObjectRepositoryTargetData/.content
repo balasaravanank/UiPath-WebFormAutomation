@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y1lVekiJWUWpb_Xk30v8TA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="585c6a20-8de5-4a18-810f-3bd176db3e6a" CvElementArea="311, 533, 1046, 101" CvType="InputBox" DesignTimeRectangle="297, 668, 1040, 94" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='my-text-id' tag='INPUT' type='text' class='form-control' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4aeba28a-a9fa-41cd-acfb-a6ed8d6eb6ec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="585c6a20-8de5-4a18-810f-3bd176db3e6a" CvElementArea="310, 707, 1048, 102" CvTextArea="315, 665, 165, 35" CvTextArgument="Password" CvType="InputBox" DesignTimeRectangle="291, 793, 1049, 146" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='form-label w-100' aaname='Text input                            ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Text input' /&gt;" Guid="aeae020f-4d57-4966-b82b-36354c4870b6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d7421526c7a01690e43d5e21e09324f6.png" xmlns="">0iagxCAb52UmnJ-K6ja3EpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

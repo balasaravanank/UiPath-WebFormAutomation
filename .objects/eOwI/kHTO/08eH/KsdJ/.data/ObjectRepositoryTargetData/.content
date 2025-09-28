@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="viK6yhyjlUafSn9rOJKM3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="8a85501d-2ed7-4c5d-9e16-9a4375d18e87" CvElementArea="1410, 1421, 197, 100" CvTextArea="1445, 1452, 130, 37" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="1416, 1425, 189, 94" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="de7de9f2-74af-4f0e-9e5b-03c168768b3e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fa8d57230fcdbe4d63744b84587bfeff.png" xmlns="">0YkPRKQpBP0-bdZx-XOtiow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

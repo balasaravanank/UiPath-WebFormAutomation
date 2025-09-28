@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Toc9dNHlr0S6cKOh8HMSdQ" Reference="WQ5webFp60-xLRlpDywaKA/W76PeT3yX0K0r4r97scpGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="27025e6f-5d10-45ca-af45-f2909255d61e" CvElementArea="291, 837, 1047, 100" CvType="InputBox" DesignTimeRectangle="297, 842, 1040, 94" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='form-control' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="24361a61-6614-4b5a-91b8-906c0d4e9a35" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="27025e6f-5d10-45ca-af45-f2909255d61e" CvElementArea="291, 837, 1047, 100" CvTextArea="295, 792, 165, 37" CvTextArgument="Password" CvType="InputBox" DesignTimeRectangle="297, 782, 1040, 154" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password                            ' tag='LABEL' type='' class='form-label w-100' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password' /&gt;" Guid="f5361623-002f-479c-8a5a-caffb16df4b2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d0ad621b14029e088e8002dbcea8614c.png" xmlns="">0dsICG9hMjkGxBh03Xv7nJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

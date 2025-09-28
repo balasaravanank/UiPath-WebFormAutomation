@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0374NE4Y60Od3P4mH0BIvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="selenium.dev/selenium/web/web-form.html" CVScreenId="8a85501d-2ed7-4c5d-9e16-9a4375d18e87" CvElementArea="309, 1010, 1048, 222" CvType="InputBox" DesignTimeRectangle="316, 1016, 1040, 214" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='form-control' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="910f5e70-c784-467e-bdf1-4ef93ac32aad" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8a85501d-2ed7-4c5d-9e16-9a4375d18e87" CvElementArea="309, 1010, 1048, 222" CvTextArea="312, 970, 147, 35" CvTextArgument="Textarea" CvType="InputBox" DesignTimeRectangle="316, 956, 1040, 274" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Textarea                            ' tag='LABEL' type='' class='form-label w-100' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Textarea' /&gt;" Guid="80379472-4430-4cd7-bc6b-2134e47a9932" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="05b822093c43499ffd149ed88e1f5f52.png" xmlns="">0QEtpE7ngQUO8bahMAL_NoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
