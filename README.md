@@ -17,8 +17,6 @@ This repository contains a simple **UiPath workflow** that demonstrates:
 ## Project Files
 - `Main.xaml` → The main automation workflow  
 - `project.json` → UiPath project configuration  
-- `.gitignore` → Recommended Git ignore rules for UiPath projects  
-- `.screenshots/` → Auto-generated screenshots (if any)  
 
 ---
 
